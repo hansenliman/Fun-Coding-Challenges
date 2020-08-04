@@ -22,7 +22,7 @@ class Solution:
     def nthUglyNumber(self, n: int) -> int:
         arr = [1]
         two = three = five = 0
-        for i in range(n-1):
+        for i in range(n - 1):
             uglyNum = min(2 * arr[two], 3 * arr[three], 5 * arr[five])
             if uglyNum == 2 * arr[two]:
                 two += 1
