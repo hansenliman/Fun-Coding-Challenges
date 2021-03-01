@@ -72,6 +72,7 @@ def sol(root, p, q, foundDescendant): # Returns: descendantFound, ancestoryVal
     else:
         return False, None
 
+# Test Tree
 root = Node(3)
 root.left = Node(5)
 root.right = Node(1)
